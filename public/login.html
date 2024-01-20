@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>LiveNote Login Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-form">
+        <h1>Live<span>Note</span></h1>
+        <!-- <p>Sign In</p> -->
+        <div class="user-form">
+          <form action="/home" method="POST">
+            <label for="username">Username: </label>
+            <input
+              type="text"
+              name="username"
+              class="user-input"
+              autocomplete="off"
+            />
+            <label for="password">Password: </label>
+            <input
+              type="password"
+              name="password"
+              class="user-input"
+              autocomplete="off"
+            />
+
+            <div class="user-action">
+              <a href="#">Forgot password ?</a>
+              <input type="submit" value="Submit" class="submit-btn" />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="login-image">
+        <img src="./assets/login.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
